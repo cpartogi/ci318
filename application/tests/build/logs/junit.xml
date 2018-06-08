@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="27" assertions="31" errors="0" failures="0" skipped="0" time="0.645821">
+    <testsuite name="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" tests="15" assertions="16" errors="0" failures="0" skipped="0" time="0.358636">
+      <testcase name="test_Login_title" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="4" assertions="1" time="0.039474"/>
+      <testcase name="test_Login_label_username_exist" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="9" assertions="1" time="0.021838"/>
+      <testcase name="test_Login_form_username_exist" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="14" assertions="1" time="0.022643"/>
+      <testcase name="test_Login_label_password_exist" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="19" assertions="1" time="0.022671"/>
+      <testcase name="test_Login_form_password_exist" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="24" assertions="1" time="0.022641"/>
+      <testcase name="test_Login_form_submit_exist" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="29" assertions="1" time="0.021216"/>
+      <testcase name="test_Login_form_validation" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="34" assertions="2" time="0.024305"/>
+      <testcase name="test_Login_form_validation_username" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="40" assertions="1" time="0.022768"/>
+      <testcase name="test_Login_form_validation_password" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="45" assertions="1" time="0.024140"/>
+      <testcase name="test_Login_failed" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="50" assertions="1" time="0.026839"/>
+      <testcase name="test_Login_success" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="55" assertions="1" time="0.023152"/>
+      <testcase name="test_Logout_link_exist" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="61" assertions="1" time="0.022445"/>
+      <testcase name="test_Logout_process" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="67" assertions="1" time="0.020873"/>
+      <testcase name="test_Direct_without_login" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="73" assertions="1" time="0.022274"/>
+      <testcase name="test_Create_news_link" class="Login_test" classname="Login_test" file="/Users/christian/Sites/ci318/application/tests/controllers/Login_test.php" line="78" assertions="1" time="0.021357"/>
+    </testsuite>
+    <testsuite name="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" tests="11" assertions="13" errors="0" failures="0" skipped="0" time="0.269670">
+      <testcase name="test_news_archive_title" class="News_test" classname="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" line="4" assertions="1" time="0.023042"/>
+      <testcase name="test_news_view_title" class="News_test" classname="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" line="10" assertions="1" time="0.021113"/>
+      <testcase name="test_news_create_title" class="News_test" classname="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" line="16" assertions="1" time="0.023084"/>
+      <testcase name="test_news_create_form_title_exist" class="News_test" classname="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" line="23" assertions="1" time="0.021886"/>
+      <testcase name="test_news_create_form_text_exist" class="News_test" classname="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" line="29" assertions="1" time="0.022808"/>
+      <testcase name="test_news_create_form_date_exist" class="News_test" classname="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" line="35" assertions="1" time="0.022632"/>
+      <testcase name="test_news_create_form_validation" class="News_test" classname="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" line="41" assertions="3" time="0.026497"/>
+      <testcase name="test_news_create_form_validation_title" class="News_test" classname="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" line="49" assertions="1" time="0.024718"/>
+      <testcase name="test_news_create_form_validation_text" class="News_test" classname="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" line="55" assertions="1" time="0.024544"/>
+      <testcase name="test_news_create_form_validation_date" class="News_test" classname="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" line="61" assertions="1" time="0.024625"/>
+      <testcase name="test_news_create_post" class="News_test" classname="News_test" file="/Users/christian/Sites/ci318/application/tests/controllers/News_test.php" line="67" assertions="1" time="0.034721"/>
+    </testsuite>
+    <testsuite name="News_model_test" file="/Users/christian/Sites/ci318/application/tests/models/News_model_test.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.017515">
+      <testcase name="test_get_news_list" class="News_model_test" classname="News_model_test" file="/Users/christian/Sites/ci318/application/tests/models/News_model_test.php" line="12" assertions="2" time="0.017515"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

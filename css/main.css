@@ -1,0 +1,46 @@
+
+/*
+    Note: It is best to use a less version of this file ( see http://css2less.cc
+    For the media queries use @screen-sm-min instead of 768px.
+    For .omb_spanOr use @body-bg instead of white.
+*/
+#all{
+  margin-top:50px;
+}
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.h1, h1 {
+  margin-left: 10px;
+}
+
+.h4, h4 {
+  font-size: 25px;
+}
+
+.lbl {
+  margin-left:10px;
+}
+
+.row {
+  margin-bottom:10px;
+}
+
+.btnsub {
+  margin-left:10px;
+}
+
+.news {
+  margin-left:10px;
+}
+
+.headlog {
+  font-size:20px; 
+}
+
+
+  
+
